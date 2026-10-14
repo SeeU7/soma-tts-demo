@@ -1,0 +1,902 @@
+[
+  {
+    "model": "CosyVoice2",
+    "task": "APS",
+    "rank": 1,
+    "id": "en_352",
+    "lang": "en",
+    "instruction": "gender: Male.\n\npitch: Dynamic male pitch, starting lower and rising sharply to a high, strained level.\n\nspeed: Relatively fast pace, accelerating into a rushed delivery.\n\nvolume: Starts conversational, quickly escalating to loud and forceful.\n\nage: Young adult.\n\nclarity: Generally clear articulation despite emotional intensity.\n\nfluency: Fluent delivery with strong forward momentum.\n\naccent: American English.\n\ntexture: Tense and slightly strained vocal quality.\n\nemotion: Escalates from insistence to desperation and panic.\n\ntone: Shifts from insistent to alarmed and urgent.\n\npersonality: Emotionally reactive and impulsive.",
+    "baseline": "audio/CosyVoice2/APS/rank_01_en_352/baseline.wav",
+    "method": "audio/CosyVoice2/APS/rank_01_en_352/method.wav"
+  },
+  {
+    "model": "CosyVoice2",
+    "task": "APS",
+    "rank": 2,
+    "id": "en_46",
+    "lang": "en",
+    "instruction": "gender: Male.\n\npitch: Relatively high and strained male pitch.\n\nspeed: Rapid and somewhat hurried pace.\n\nvolume: Loud and forceful, bordering on shouting throughout.\n\nage: Adult, likely young to middle-aged.\n\nclarity: Clear articulation despite the rapid delivery.\n\nfluency: Highly fluent without noticeable breaks.\n\naccent: American English.\n\ntexture: Tense and somewhat sharp vocal quality.\n\nemotion: Strongly expressed anger and frustration, particularly in the phrases 'We're here to do a job' and 'You hearing me?'.\n\ntone: Aggressive, demanding, and exasperated tone.\n\npersonality: Assertive and impatient demeanor.",
+    "baseline": "audio/CosyVoice2/APS/rank_02_en_46/baseline.wav",
+    "method": "audio/CosyVoice2/APS/rank_02_en_46/method.wav"
+  },
+  {
+    "model": "CosyVoice2",
+    "task": "APS",
+    "rank": 3,
+    "id": "en_762",
+    "lang": "en",
+    "instruction": "gender: Male.\n\npitch: High-pitched for a male, strained.\n\nspeed: Rapid delivery.\n\nvolume: Shouting, very loud.\n\nage: Young adult to middle-aged.\n\nclarity: Clear despite the intensity.\n\nfluency: Fluent but frantic.\n\naccent: American English.\n\ntexture: Tense, somewhat strained.\n\nemotion: Intense panic and fear.\n\ntone: Alarmed and accusatory.\n\npersonality: Highly reactive, prone to panic.",
+    "baseline": "audio/CosyVoice2/APS/rank_03_en_762/baseline.wav",
+    "method": "audio/CosyVoice2/APS/rank_03_en_762/method.wav"
+  },
+  {
+    "model": "CosyVoice2",
+    "task": "APS",
+    "rank": 4,
+    "id": "en_581",
+    "lang": "en",
+    "instruction": "gender: Male.\n\npitch: High male pitch with energetic upward inflections.\n\nspeed: Fast-paced and lively speaking rate.\n\nvolume: Consistently loud and projecting.\n\nage: Young Adult to Middle-aged.\n\nclarity: Highly articulate and clear pronunciation.\n\nfluency: Very fluent with smooth delivery.\n\naccent: British English.\n\ntexture: Bright and energetic vocal quality.\n\nemotion: Enthusiastic and amused, culminating in laughter.\n\ntone: Playful, informative, and slightly theatrical.\n\npersonality: Extroverted, energetic, humorous.",
+    "baseline": "audio/CosyVoice2/APS/rank_04_en_581/baseline.wav",
+    "method": "audio/CosyVoice2/APS/rank_04_en_581/method.wav"
+  },
+  {
+    "model": "CosyVoice2",
+    "task": "APS",
+    "rank": 5,
+    "id": "en_494",
+    "lang": "en",
+    "instruction": "gender: Male.\n\npitch: High-pitched male voice, strained with sharp upward inflections.\n\nspeed: Rapid and hurried pace.\n\nvolume: Initially shouting, then consistently loud and projected.\n\nage: Young adult to middle-aged adult.\n\nclarity: Articulation is sharp despite the strained delivery.\n\nfluency: Fluent speech delivered with urgent intensity.\n\naccent: British English accent.\n\ntexture: Tense and slightly sharp vocal quality.\n\nemotion: Urgent and alarmed.\n\ntone: Commanding and exclamatory, conveying immediate need.\n\npersonality: Action-oriented and highly alert under duress.",
+    "baseline": "audio/CosyVoice2/APS/rank_05_en_494/baseline.wav",
+    "method": "audio/CosyVoice2/APS/rank_05_en_494/method.wav"
+  },
+  {
+    "model": "CosyVoice2",
+    "task": "APS",
+    "rank": 6,
+    "id": "zh_835",
+    "lang": "zh",
+    "instruction": "性别: 男性.\n\n音高: 男性音高偏高，末尾上扬.\n\n语速: 语速较快，顿挫有力.\n\n音量: 音量较大，情绪激昂时增强.\n\n年龄: 中年男性.\n\n清晰度: 吐字清晰，发音饱满.\n\n流畅度: 语言流畅，表达连贯.\n\n口音: 普通话，略带北方口音.\n\n音色质感: 音质略显粗砺，充满力量.\n\n情绪: 情绪激动，表达强烈不满.\n\n语调: 质问语气，语调高昂.\n\n性格: 性格刚直，情绪外露.",
+    "baseline": "audio/CosyVoice2/APS/rank_06_zh_835/baseline.wav",
+    "method": "audio/CosyVoice2/APS/rank_06_zh_835/method.wav"
+  },
+  {
+    "model": "CosyVoice2",
+    "task": "APS",
+    "rank": 7,
+    "id": "zh_540",
+    "lang": "zh",
+    "instruction": "性别: 男性.\n\n音高: 男性较低音域，句末上扬.\n\n语速: 语速偏快，略带急促.\n\n音量: 音量较高，语气强烈.\n\n年龄: 青年.\n\n清晰度: 发音清晰.\n\n流畅度: 表达流畅.\n\n口音: 标准普通话.\n\n音色质感: 音质坚实，略带锐利感.\n\n情绪: 激动且略带质问语气.\n\n语调: 音调变化明显，强调意味突出.\n\n性格: 果断自信，略显急躁.",
+    "baseline": "audio/CosyVoice2/APS/rank_07_zh_540/baseline.wav",
+    "method": "audio/CosyVoice2/APS/rank_07_zh_540/method.wav"
+  },
+  {
+    "model": "CosyVoice2",
+    "task": "APS",
+    "rank": 8,
+    "id": "zh_125",
+    "lang": "zh",
+    "instruction": "性别: 男性.\n\n音高: 男性音高沉稳.\n\n语速: 语速迅捷，节奏紧凑.\n\n音量: 音量充沛清晰.\n\n年龄: 青年.\n\n清晰度: 发音清晰精准.\n\n流畅度: 言语流畅无顿挫.\n\n口音: 标准普通话.\n\n音色质感: 音色坚实，富有力度.\n\n情绪: 略显兴奋的叙述口吻.\n\n语调: 语调起伏有力，节奏感强.\n\n性格: 果断自信，充满活力.",
+    "baseline": "audio/CosyVoice2/APS/rank_08_zh_125/baseline.wav",
+    "method": "audio/CosyVoice2/APS/rank_08_zh_125/method.wav"
+  },
+  {
+    "model": "CosyVoice2",
+    "task": "APS",
+    "rank": 9,
+    "id": "zh_780",
+    "lang": "zh",
+    "instruction": "性别: 男性.\n\n音高: 男性正常音域，激动时显著抬高.\n\n语速: 语速偏快，节奏紧凑.\n\n音量: 音量高昂，力度十足.\n\n年龄: 中年.\n\n清晰度: 发音清晰，吐字用力果断.\n\n流畅度: 言语流畅，一气呵成.\n\n口音: 标准普通话.\n\n音色质感: 音质略显粗犷，富有冲击力.\n\n情绪: 激动且焦虑，伴有急切强调.\n\n语调: 肯定不容置疑，说服意图明显.\n\n性格: 个性坦率急切，情绪外露.",
+    "baseline": "audio/CosyVoice2/APS/rank_09_zh_780/baseline.wav",
+    "method": "audio/CosyVoice2/APS/rank_09_zh_780/method.wav"
+  },
+  {
+    "model": "CosyVoice2",
+    "task": "APS",
+    "rank": 10,
+    "id": "zh_889",
+    "lang": "zh",
+    "instruction": "性别: 男性.\n\n音高: 男性较低音域，激动时上扬.\n\n语速: 整体偏快，后段加速.\n\n音量: 音量偏高，语气强调.\n\n年龄: 中年.\n\n清晰度: 吐字清晰.\n\n流畅度: 表达流畅无卡顿.\n\n口音: 标准普通话带北方腔调.\n\n音色质感: 音质坚实而略显紧促.\n\n情绪: 不耐烦中夹杂抱怨.\n\n语调: 语调起伏明显，句末上扬.\n\n性格: 性格直率，略显急躁.",
+    "baseline": "audio/CosyVoice2/APS/rank_10_zh_889/baseline.wav",
+    "method": "audio/CosyVoice2/APS/rank_10_zh_889/method.wav"
+  },
+  {
+    "model": "CosyVoice2",
+    "task": "DSD",
+    "rank": 1,
+    "id": "en_450",
+    "lang": "en",
+    "instruction": "Employ a high-energy approach, expressing youthful vigor through a rapid, energetic pace; ensure improvisational fluency, avoiding any disruptive pauses.",
+    "baseline": "audio/CosyVoice2/DSD/rank_01_en_450/baseline.wav",
+    "method": "audio/CosyVoice2/DSD/rank_01_en_450/method.wav"
+  },
+  {
+    "model": "CosyVoice2",
+    "task": "DSD",
+    "rank": 2,
+    "id": "en_500",
+    "lang": "en",
+    "instruction": "Convey a sense of urgency by speaking rapidly and employing a frantic tone, while ensuring clear pronunciation to highlight the severity of the message.",
+    "baseline": "audio/CosyVoice2/DSD/rank_02_en_500/baseline.wav",
+    "method": "audio/CosyVoice2/DSD/rank_02_en_500/method.wav"
+  },
+  {
+    "model": "CosyVoice2",
+    "task": "DSD",
+    "rank": 3,
+    "id": "en_777",
+    "lang": "en",
+    "instruction": "Deliver lyrics with a brisk pace, keeping smooth transitions, while adding fervent emotion and a commanding, raspy texture for impact.",
+    "baseline": "audio/CosyVoice2/DSD/rank_03_en_777/baseline.wav",
+    "method": "audio/CosyVoice2/DSD/rank_03_en_777/method.wav"
+  },
+  {
+    "model": "CosyVoice2",
+    "task": "DSD",
+    "rank": 4,
+    "id": "en_161",
+    "lang": "en",
+    "instruction": "Emphasize anger and frustration using a loud and escalating volume that crescendos to a shout, paired with an expressive personality marked by emotional outbursts.",
+    "baseline": "audio/CosyVoice2/DSD/rank_04_en_161/baseline.wav",
+    "method": "audio/CosyVoice2/DSD/rank_04_en_161/method.wav"
+  },
+  {
+    "model": "CosyVoice2",
+    "task": "DSD",
+    "rank": 5,
+    "id": "en_603",
+    "lang": "en",
+    "instruction": "Embrace an animated and engaging approach, characterized by an unwavering loud volume and a slightly comedic touch. Reflect the vigor of a young adult with an extroverted personality, balancing energetic speed with articulate pronunciation. Employ a bright vocal quality paired with consistent upward inflections to highlight key points, projecting them with a modern British English accent.",
+    "baseline": "audio/CosyVoice2/DSD/rank_05_en_603/baseline.wav",
+    "method": "audio/CosyVoice2/DSD/rank_05_en_603/method.wav"
+  },
+  {
+    "model": "CosyVoice2",
+    "task": "DSD",
+    "rank": 6,
+    "id": "zh_627",
+    "lang": "zh",
+    "instruction": "展现出中年女性的声线,使用标准普通话。音高由平缓迅速拔高至尖锐,并在情感爆发时略带嘶哑。音量从正常提升到近乎喊叫,彰显出悲愤的控诉者特质。",
+    "baseline": "audio/CosyVoice2/DSD/rank_06_zh_627/baseline.wav",
+    "method": "audio/CosyVoice2/DSD/rank_06_zh_627/method.wav"
+  },
+  {
+    "model": "CosyVoice2",
+    "task": "DSD",
+    "rank": 7,
+    "id": "zh_651",
+    "lang": "zh",
+    "instruction": "确保语音流畅,发音需标准清晰,语境应显出不耐烦的情绪,结尾部分语气坚定且陈述坚决,表现出急于澄清和略带急躁的态度。",
+    "baseline": "audio/CosyVoice2/DSD/rank_07_zh_651/baseline.wav",
+    "method": "audio/CosyVoice2/DSD/rank_07_zh_651/method.wav"
+  },
+  {
+    "model": "CosyVoice2",
+    "task": "DSD",
+    "rank": 8,
+    "id": "zh_110",
+    "lang": "zh",
+    "instruction": "使用标准普通话,以充沛响亮的音量,一气呵成地表达急切的宣告,音调高亢,带着急切且兴奋的情感,仿佛迫不及待地分享发现。",
+    "baseline": "audio/CosyVoice2/DSD/rank_08_zh_110/baseline.wav",
+    "method": "audio/CosyVoice2/DSD/rank_08_zh_110/method.wav"
+  },
+  {
+    "model": "CosyVoice2",
+    "task": "DSD",
+    "rank": 9,
+    "id": "zh_298",
+    "lang": "zh",
+    "instruction": "展现出威严但略显急躁的男性声线,音量由正常转向响亮,发音标准且有力。语调从审慎怀疑过渡到强硬急促质问,情感从怀疑升级至愤怒,结尾语音拔高以加重质问效果。",
+    "baseline": "audio/CosyVoice2/DSD/rank_09_zh_298/baseline.wav",
+    "method": "audio/CosyVoice2/DSD/rank_09_zh_298/method.wav"
+  },
+  {
+    "model": "CosyVoice2",
+    "task": "DSD",
+    "rank": 10,
+    "id": "zh_343",
+    "lang": "zh",
+    "instruction": "呈现出权威强势的语气,整体音量偏高,情绪变化时音高突升,语调的命令与质问交替,强调每一个关键点,直至结尾时快速而有力。",
+    "baseline": "audio/CosyVoice2/DSD/rank_10_zh_343/baseline.wav",
+    "method": "audio/CosyVoice2/DSD/rank_10_zh_343/method.wav"
+  },
+  {
+    "model": "CosyVoice2",
+    "task": "RP",
+    "rank": 1,
+    "id": "en_337",
+    "lang": "en",
+    "instruction": "Amid vivid narration, the sports commentator electrifies the game's pivotal moment.",
+    "baseline": "audio/CosyVoice2/RP/rank_01_en_337/baseline.wav",
+    "method": "audio/CosyVoice2/RP/rank_01_en_337/method.wav"
+  },
+  {
+    "model": "CosyVoice2",
+    "task": "RP",
+    "rank": 2,
+    "id": "en_480",
+    "lang": "en",
+    "instruction": "Project the role of a defense attorney passionately arguing his closing statement with fervor and urgency.",
+    "baseline": "audio/CosyVoice2/RP/rank_02_en_480/baseline.wav",
+    "method": "audio/CosyVoice2/RP/rank_02_en_480/method.wav"
+  },
+  {
+    "model": "CosyVoice2",
+    "task": "RP",
+    "rank": 3,
+    "id": "en_439",
+    "lang": "en",
+    "instruction": "In an electrifying finale, the rock singer belts out the chorus with passionate intensity.",
+    "baseline": "audio/CosyVoice2/RP/rank_03_en_439/baseline.wav",
+    "method": "audio/CosyVoice2/RP/rank_03_en_439/method.wav"
+  },
+  {
+    "model": "CosyVoice2",
+    "task": "RP",
+    "rank": 4,
+    "id": "en_26",
+    "lang": "en",
+    "instruction": "Capture the passion of a tech presenter unveiling the latest innovation, infusing your informative tone with infectious enthusiasm.",
+    "baseline": "audio/CosyVoice2/RP/rank_04_en_26/baseline.wav",
+    "method": "audio/CosyVoice2/RP/rank_04_en_26/method.wav"
+  },
+  {
+    "model": "CosyVoice2",
+    "task": "RP",
+    "rank": 5,
+    "id": "en_585",
+    "lang": "en",
+    "instruction": "At the protest rally, the activist urgently demands justice.",
+    "baseline": "audio/CosyVoice2/RP/rank_05_en_585/baseline.wav",
+    "method": "audio/CosyVoice2/RP/rank_05_en_585/method.wav"
+  },
+  {
+    "model": "CosyVoice2",
+    "task": "RP",
+    "rank": 6,
+    "id": "zh_927",
+    "lang": "zh",
+    "instruction": "辩论台上的辩手猛然质问对手的观点。",
+    "baseline": "audio/CosyVoice2/RP/rank_06_zh_927/baseline.wav",
+    "method": "audio/CosyVoice2/RP/rank_06_zh_927/method.wav"
+  },
+  {
+    "model": "CosyVoice2",
+    "task": "RP",
+    "rank": 7,
+    "id": "zh_438",
+    "lang": "zh",
+    "instruction": "站在街头激昂疾呼的社会活动家。",
+    "baseline": "audio/CosyVoice2/RP/rank_07_zh_438/baseline.wav",
+    "method": "audio/CosyVoice2/RP/rank_07_zh_438/method.wav"
+  },
+  {
+    "model": "CosyVoice2",
+    "task": "RP",
+    "rank": 8,
+    "id": "zh_831",
+    "lang": "zh",
+    "instruction": "在充满争议的场合,用洪亮的音量表达你强烈的不满和质疑。",
+    "baseline": "audio/CosyVoice2/RP/rank_08_zh_831/baseline.wav",
+    "method": "audio/CosyVoice2/RP/rank_08_zh_831/method.wav"
+  },
+  {
+    "model": "CosyVoice2",
+    "task": "RP",
+    "rank": 9,
+    "id": "zh_24",
+    "lang": "zh",
+    "instruction": "政治运动家在议会上愤慨陈述不公事实。",
+    "baseline": "audio/CosyVoice2/RP/rank_09_zh_24/baseline.wav",
+    "method": "audio/CosyVoice2/RP/rank_09_zh_24/method.wav"
+  },
+  {
+    "model": "CosyVoice2",
+    "task": "RP",
+    "rank": 10,
+    "id": "zh_567",
+    "lang": "zh",
+    "instruction": "激动地质疑政策不合理的抗议者。",
+    "baseline": "audio/CosyVoice2/RP/rank_10_zh_567/baseline.wav",
+    "method": "audio/CosyVoice2/RP/rank_10_zh_567/method.wav"
+  },
+  {
+    "model": "CosyVoice3",
+    "task": "APS",
+    "rank": 1,
+    "id": "en_702",
+    "lang": "en",
+    "instruction": "gender: Female.\n\npitch: High female pitch, rising sharply with agitation.\n\nspeed: Rapid and accelerating.\n\nvolume: Loud, escalating towards shouting.\n\nage: Young adult.\n\nclarity: Clear articulation despite the fast pace.\n\nfluency: Fluent delivery without hesitation.\n\naccent: British English.\n\ntexture: Bright and somewhat thin, becoming strained.\n\nemotion: Agitated transitioning quickly into intense anger and distress.\n\ntone: Accusatory and exasperated.\n\npersonality: Emotionally expressive, direct, confrontational when angered.",
+    "baseline": "audio/CosyVoice3/APS/rank_01_en_702/baseline.wav",
+    "method": "audio/CosyVoice3/APS/rank_01_en_702/method.wav"
+  },
+  {
+    "model": "CosyVoice3",
+    "task": "APS",
+    "rank": 2,
+    "id": "en_584",
+    "lang": "en",
+    "instruction": "gender: Female.\n\npitch: High female pitch, rising sharply with intense emotion.\n\nspeed: Rapid and forceful delivery.\n\nvolume: Starts conversational, escalating quickly to loud shouting.\n\nage: Young adult to early middle-aged.\n\nclarity: Generally clear pronunciation despite the fast pace.\n\nfluency: Highly fluent without hesitations.\n\naccent: Northern English accent.\n\ntexture: Sharp and somewhat bright, becoming strained under pressure.\n\nemotion: Starts defiant, escalating rapidly to intense anger and frustration.\n\ntone: Initially dismissive, shifting to furious and accusatory.\n\npersonality: Assertive, confrontational, stressed, passionate.",
+    "baseline": "audio/CosyVoice3/APS/rank_02_en_584/baseline.wav",
+    "method": "audio/CosyVoice3/APS/rank_02_en_584/method.wav"
+  },
+  {
+    "model": "CosyVoice3",
+    "task": "APS",
+    "rank": 3,
+    "id": "en_334",
+    "lang": "en",
+    "instruction": "gender: Male.\n\npitch: Relatively high-pitched male voice with significant upward inflections for emphasis.\n\nspeed: Rapid and urgent pace.\n\nvolume: Loud and commanding.\n\nage: Young Adult to Middle-aged.\n\nclarity: High articulation despite the fast speed.\n\nfluency: Highly fluent speech flow.\n\naccent: British English.\n\ntexture: Bright and energetic.\n\nemotion: Excited and urgent.\n\ntone: Authoritative and encouraging.\n\npersonality: Energetic, assertive, motivating.",
+    "baseline": "audio/CosyVoice3/APS/rank_03_en_334/baseline.wav",
+    "method": "audio/CosyVoice3/APS/rank_03_en_334/method.wav"
+  },
+  {
+    "model": "CosyVoice3",
+    "task": "APS",
+    "rank": 4,
+    "id": "en_729",
+    "lang": "en",
+    "instruction": "gender: Female.\n\npitch: High female pitch with sharp upward inflections, especially when demanding.\n\nspeed: Rapid and urgent pace throughout.\n\nvolume: Consistently loud, bordering on shouting.\n\nage: Young adult to middle-aged.\n\nclarity: Forceful and generally clear articulation, slightly blurred by speed.\n\nfluency: Highly fluent without hesitation.\n\naccent: Standard American English.\n\ntexture: Brassy and somewhat harsh.\n\nemotion: Impatient, aggressive, and threatening.\n\ntone: Commanding and confrontational.\n\npersonality: Assertive and confrontational.",
+    "baseline": "audio/CosyVoice3/APS/rank_04_en_729/baseline.wav",
+    "method": "audio/CosyVoice3/APS/rank_04_en_729/method.wav"
+  },
+  {
+    "model": "CosyVoice3",
+    "task": "APS",
+    "rank": 5,
+    "id": "en_684",
+    "lang": "en",
+    "instruction": "gender: Male.\n\npitch: Higher male pitch, rising significantly under stress.\n\nspeed: Rapid and rushed, particularly when describing the chase.\n\nvolume: Consistently loud and projecting, reflecting agitation.\n\nage: Young adult to early middle-aged.\n\nclarity: Generally clear articulation despite the fast pace.\n\nfluency: Fast-flowing but slightly breathless with agitation.\n\naccent: American English.\n\ntexture: Tense and somewhat nasal vocal quality.\n\nemotion: High anxiety, fear, and agitation throughout.\n\ntone: Urgent, fearful, and frantic.\n\npersonality: Anxious and highly reactive under pressure.",
+    "baseline": "audio/CosyVoice3/APS/rank_05_en_684/baseline.wav",
+    "method": "audio/CosyVoice3/APS/rank_05_en_684/method.wav"
+  },
+  {
+    "model": "CosyVoice3",
+    "task": "APS",
+    "rank": 6,
+    "id": "zh_859",
+    "lang": "zh",
+    "instruction": "性别: 男性.\n\n音高: 男性音高，整体高亢，句末急剧上扬.\n\n语速: 语速快，节奏紧凑.\n\n音量: 音量高昂，充满力度.\n\n年龄: 中年.\n\n清晰度: 吐字清晰，字字分明.\n\n流畅度: 表达流畅，一气呵成.\n\n口音: 标准普通话.\n\n音色质感: 音色明亮，略带锐利感.\n\n情绪: 震惊、不解与强烈质疑.\n\n语调: 高扬的疑问感叹调，语势强烈.\n\n性格: 坦率直接，情绪易激动.",
+    "baseline": "audio/CosyVoice3/APS/rank_06_zh_859/baseline.wav",
+    "method": "audio/CosyVoice3/APS/rank_06_zh_859/method.wav"
+  },
+  {
+    "model": "CosyVoice3",
+    "task": "APS",
+    "rank": 7,
+    "id": "zh_764",
+    "lang": "zh",
+    "instruction": "性别: 男性嗓音特征.\n\n音高: 男性较低沉稳音高.\n\n语速: 语速平缓从容.\n\n音量: 音量清晰有力.\n\n年龄: 中年成熟男性.\n\n清晰度: 吐字清晰圆润.\n\n流畅度: 言语流畅自然.\n\n口音: 标准普通话口音.\n\n音色质感: 音色浑厚饱满.\n\n情绪: 平和愉悦，略带赞赏.\n\n语调: 语调平稳，带有肯定与分享意味.\n\n性格: 沉稳自信，从容不迫.",
+    "baseline": "audio/CosyVoice3/APS/rank_07_zh_764/baseline.wav",
+    "method": "audio/CosyVoice3/APS/rank_07_zh_764/method.wav"
+  },
+  {
+    "model": "CosyVoice3",
+    "task": "APS",
+    "rank": 8,
+    "id": "zh_510",
+    "lang": "zh",
+    "instruction": "性别: 男性.\n\n音高: 男性低音域，句末及疑问时上扬.\n\n语速: 语速偏慢，节奏清晰.\n\n音量: 音量饱满，重点处音量提升.\n\n年龄: 中老年.\n\n清晰度: 发音清楚，吐字用力.\n\n流畅度: 整体连贯，间有自然语顿.\n\n口音: 标准普通话.\n\n音色质感: 音质厚重，略带颗粒感.\n\n情绪: 初始平静，后显坚决与不容置疑.\n\n语调: 陈述语气果断，带有质询式强调.\n\n性格: 坚定果敢，具权威感.",
+    "baseline": "audio/CosyVoice3/APS/rank_08_zh_510/baseline.wav",
+    "method": "audio/CosyVoice3/APS/rank_08_zh_510/method.wav"
+  },
+  {
+    "model": "CosyVoice3",
+    "task": "APS",
+    "rank": 9,
+    "id": "zh_931",
+    "lang": "zh",
+    "instruction": "性别: 男性.\n\n音高: 男性较高音区，激动时显著拔高.\n\n语速: 语速急促，情绪激动时更快.\n\n音量: 音量高亢，近乎喊叫.\n\n年龄: 青年至中年男性.\n\n清晰度: 激动时略显含混，但基本清晰.\n\n流畅度: 表达连贯，无明显停顿.\n\n口音: 带有北方口音的普通话.\n\n音色质感: 音色尖锐，略带沙哑，情绪激动时更显粗砺.\n\n情绪: 愤怒激动，带有挑衅意味.\n\n语调: 挑衅质问，语气强硬，情绪逐步升级.\n\n性格: 冲动易怒，态度强硬.",
+    "baseline": "audio/CosyVoice3/APS/rank_09_zh_931/baseline.wav",
+    "method": "audio/CosyVoice3/APS/rank_09_zh_931/method.wav"
+  },
+  {
+    "model": "CosyVoice3",
+    "task": "APS",
+    "rank": 10,
+    "id": "zh_16",
+    "lang": "zh",
+    "instruction": "性别: 女性嗓音特征.\n\n音高: 女性高音域，句末因激动而急剧拉高.\n\n语速: 前半句语速正常，后半句因情绪激动而显著加快.\n\n音量: 由正常音量在句末迅速提升至高喊.\n\n年龄: 青年女性.\n\n清晰度: 发音清晰，字句铿锵有力.\n\n流畅度: 言语流畅，爆发力强.\n\n口音: 标准普通话.\n\n音色质感: 音色明亮，高亢时略带锐利感.\n\n情绪: 愤怒与悲愤的爆发，充满控诉.\n\n语调: 语调高昂，谴责意味强烈.\n\n性格: 情感强烈，表达直接.",
+    "baseline": "audio/CosyVoice3/APS/rank_10_zh_16/baseline.wav",
+    "method": "audio/CosyVoice3/APS/rank_10_zh_16/method.wav"
+  },
+  {
+    "model": "CosyVoice3",
+    "task": "DSD",
+    "rank": 1,
+    "id": "en_625",
+    "lang": "en",
+    "instruction": "Let your voice emanate urgency, starting with an emphatic shout before settling into a loud, rapid rhythm; despite the reduced clarity, the desperation must pierce through, signifying emotional distress in a male tone.",
+    "baseline": "audio/CosyVoice3/DSD/rank_01_en_625/baseline.wav",
+    "method": "audio/CosyVoice3/DSD/rank_01_en_625/method.wav"
+  },
+  {
+    "model": "CosyVoice3",
+    "task": "DSD",
+    "rank": 2,
+    "id": "en_705",
+    "lang": "en",
+    "instruction": "With an expressive flair, let the words tumble rapidly in an exasperated manner, crafting a lively yet dramatic atmosphere that captures a female's vibrant persona.",
+    "baseline": "audio/CosyVoice3/DSD/rank_02_en_705/baseline.wav",
+    "method": "audio/CosyVoice3/DSD/rank_02_en_705/method.wav"
+  },
+  {
+    "model": "CosyVoice3",
+    "task": "DSD",
+    "rank": 3,
+    "id": "en_773",
+    "lang": "en",
+    "instruction": "Adopt a high pitch that embodies the agitated nature of the voice, yet maintain articulate clarity despite the velocity. This should emanate a distinctly assertive female persona.",
+    "baseline": "audio/CosyVoice3/DSD/rank_03_en_773/baseline.wav",
+    "method": "audio/CosyVoice3/DSD/rank_03_en_773/method.wav"
+  },
+  {
+    "model": "CosyVoice3",
+    "task": "DSD",
+    "rank": 4,
+    "id": "en_191",
+    "lang": "en",
+    "instruction": "Convey an expressive and assertive persona by combining an elevated volume that borders on shouting with a bright, somewhat sharp vocal texture, all the while maintaining a demanding, imploring tone.",
+    "baseline": "audio/CosyVoice3/DSD/rank_04_en_191/baseline.wav",
+    "method": "audio/CosyVoice3/DSD/rank_04_en_191/method.wav"
+  },
+  {
+    "model": "CosyVoice3",
+    "task": "DSD",
+    "rank": 5,
+    "id": "en_412",
+    "lang": "en",
+    "instruction": "Infuse a high and strained pitch with peaks of intensity, delivering an accusatory tone in a fluent and unhesitating manner characteristic of a female voice.",
+    "baseline": "audio/CosyVoice3/DSD/rank_05_en_412/baseline.wav",
+    "method": "audio/CosyVoice3/DSD/rank_05_en_412/method.wav"
+  },
+  {
+    "model": "CosyVoice3",
+    "task": "DSD",
+    "rank": 6,
+    "id": "zh_304",
+    "lang": "zh",
+    "instruction": "表现出情急辩护者的语音风格,中年男性的声线,情绪化的表达,语速偏快,语调起伏明显,句末常有上扬,正常音量略大,激动时突显委屈与坚称善意。",
+    "baseline": "audio/CosyVoice3/DSD/rank_06_zh_304/baseline.wav",
+    "method": "audio/CosyVoice3/DSD/rank_06_zh_304/method.wav"
+  },
+  {
+    "model": "CosyVoice3",
+    "task": "DSD",
+    "rank": 7,
+    "id": "zh_651",
+    "lang": "zh",
+    "instruction": "确保语音流畅,发音需标准清晰,语境应显出不耐烦的情绪,结尾部分语气坚定且陈述坚决,表现出急于澄清和略带急躁的态度。",
+    "baseline": "audio/CosyVoice3/DSD/rank_07_zh_651/baseline.wav",
+    "method": "audio/CosyVoice3/DSD/rank_07_zh_651/method.wav"
+  },
+  {
+    "model": "CosyVoice3",
+    "task": "DSD",
+    "rank": 8,
+    "id": "zh_83",
+    "lang": "zh",
+    "instruction": "声音音量洪亮且充满力量,表达时流畅连贯没有犹豫停顿,语调抑扬顿挫且句末上扬,展示出权威并有力的语音风格,适合提醒和强调重要信息。",
+    "baseline": "audio/CosyVoice3/DSD/rank_08_zh_83/baseline.wav",
+    "method": "audio/CosyVoice3/DSD/rank_08_zh_83/method.wav"
+  },
+  {
+    "model": "CosyVoice3",
+    "task": "DSD",
+    "rank": 9,
+    "id": "zh_133",
+    "lang": "zh",
+    "instruction": "音色应浑厚带有沙哑,表达时语气果断明确,保持较高清晰度的发音,标准普通话,整体情绪要坚定,充分展现严正表态者的特质。",
+    "baseline": "audio/CosyVoice3/DSD/rank_09_zh_133/baseline.wav",
+    "method": "audio/CosyVoice3/DSD/rank_09_zh_133/method.wav"
+  },
+  {
+    "model": "CosyVoice3",
+    "task": "DSD",
+    "rank": 10,
+    "id": "zh_780",
+    "lang": "zh",
+    "instruction": "声音表现出略显粗犷但富有冲击力的音色质感,应以标准普通话表达,语速要偏快以维持紧凑的节奏,发音清晰果断,音量保持高昂,每句话都充满力度。",
+    "baseline": "audio/CosyVoice3/DSD/rank_10_zh_780/baseline.wav",
+    "method": "audio/CosyVoice3/DSD/rank_10_zh_780/method.wav"
+  },
+  {
+    "model": "CosyVoice3",
+    "task": "RP",
+    "rank": 1,
+    "id": "en_658",
+    "lang": "en",
+    "instruction": "Manifest the charisma of a Southern politician rallying supporters, conveying strength and decisive leadership with every word.",
+    "baseline": "audio/CosyVoice3/RP/rank_01_en_658/baseline.wav",
+    "method": "audio/CosyVoice3/RP/rank_01_en_658/method.wav"
+  },
+  {
+    "model": "CosyVoice3",
+    "task": "RP",
+    "rank": 2,
+    "id": "en_504",
+    "lang": "en",
+    "instruction": "With exuberance, the motivational speaker delivers a rousing call to action.",
+    "baseline": "audio/CosyVoice3/RP/rank_02_en_504/baseline.wav",
+    "method": "audio/CosyVoice3/RP/rank_02_en_504/method.wav"
+  },
+  {
+    "model": "CosyVoice3",
+    "task": "RP",
+    "rank": 3,
+    "id": "en_74",
+    "lang": "en",
+    "instruction": "On the lively street corner, the charismatic performer energizes passersby with vibrant tales.",
+    "baseline": "audio/CosyVoice3/RP/rank_03_en_74/baseline.wav",
+    "method": "audio/CosyVoice3/RP/rank_03_en_74/method.wav"
+  },
+  {
+    "model": "CosyVoice3",
+    "task": "RP",
+    "rank": 4,
+    "id": "en_789",
+    "lang": "en",
+    "instruction": "Use a sharp, exclamatory tone that edges on shouting, expressing the essence of a protective figure in dire distress.",
+    "baseline": "audio/CosyVoice3/RP/rank_04_en_789/baseline.wav",
+    "method": "audio/CosyVoice3/RP/rank_04_en_789/method.wav"
+  },
+  {
+    "model": "CosyVoice3",
+    "task": "RP",
+    "rank": 5,
+    "id": "en_337",
+    "lang": "en",
+    "instruction": "Amid vivid narration, the sports commentator electrifies the game's pivotal moment.",
+    "baseline": "audio/CosyVoice3/RP/rank_05_en_337/baseline.wav",
+    "method": "audio/CosyVoice3/RP/rank_05_en_337/method.wav"
+  },
+  {
+    "model": "CosyVoice3",
+    "task": "RP",
+    "rank": 6,
+    "id": "zh_594",
+    "lang": "zh",
+    "instruction": "对不公现象大发雷霆的激愤市民。",
+    "baseline": "audio/CosyVoice3/RP/rank_06_zh_594/baseline.wav",
+    "method": "audio/CosyVoice3/RP/rank_06_zh_594/method.wav"
+  },
+  {
+    "model": "CosyVoice3",
+    "task": "RP",
+    "rank": 7,
+    "id": "zh_586",
+    "lang": "zh",
+    "instruction": "在冲突中用急促但清晰的语调表达愤怒,注意每句话的强调节点。",
+    "baseline": "audio/CosyVoice3/RP/rank_07_zh_586/baseline.wav",
+    "method": "audio/CosyVoice3/RP/rank_07_zh_586/method.wav"
+  },
+  {
+    "model": "CosyVoice3",
+    "task": "RP",
+    "rank": 8,
+    "id": "zh_946",
+    "lang": "zh",
+    "instruction": "在辩论席上慷慨激昂的律师。",
+    "baseline": "audio/CosyVoice3/RP/rank_08_zh_946/baseline.wav",
+    "method": "audio/CosyVoice3/RP/rank_08_zh_946/method.wav"
+  },
+  {
+    "model": "CosyVoice3",
+    "task": "RP",
+    "rank": 9,
+    "id": "zh_993",
+    "lang": "zh",
+    "instruction": "好像在被责备的过程中,非常焦虑地向老师请求解释原因。",
+    "baseline": "audio/CosyVoice3/RP/rank_09_zh_993/baseline.wav",
+    "method": "audio/CosyVoice3/RP/rank_09_zh_993/method.wav"
+  },
+  {
+    "model": "CosyVoice3",
+    "task": "RP",
+    "rank": 10,
+    "id": "zh_168",
+    "lang": "zh",
+    "instruction": "年轻的将军正在振奋军中的士气。",
+    "baseline": "audio/CosyVoice3/RP/rank_10_zh_168/baseline.wav",
+    "method": "audio/CosyVoice3/RP/rank_10_zh_168/method.wav"
+  },
+  {
+    "model": "Qwen3-TTS-AC",
+    "task": "APS",
+    "rank": 1,
+    "id": "en_250",
+    "lang": "en",
+    "instruction": "gender: Female.\n\npitch: High female pitch, ascending sharply with heightened emotion, particularly during phrases about Serena and the Mona Lisa..\n\nspeed: Initially brisk conversational pace, rapidly accelerating during emotional escalations, creating a rushed and intense delivery..\n\nvolume: Conversational volume initially, escalating to emphatic loudness with rising frustration and dramatic emphasis..\n\nage: Young adult.\n\nclarity: Distinct and articulate pronunciation maintained throughout, even at faster speeds..\n\nfluency: Highly fluent delivery with smooth, uninterrupted word flow..\n\naccent: Standard American English.\n\ntexture: Bright vocal texture, becoming somewhat sharp and strained during intense emotional expressions..\n\nemotion: Initially dismissive, rapidly transitioning to escalating anger, indignation, and theatrical frustration..\n\ntone: Starts declarative and slightly sarcastic, shifting to an indignant, then intensely emphatic and dramatic tone..\n\npersonality: Outspoken, assertive, and theatrical, displaying a tendency towards intense emotional expression..",
+    "baseline": "audio/Qwen3-TTS-AC/APS/rank_01_en_250/baseline.wav",
+    "method": "audio/Qwen3-TTS-AC/APS/rank_01_en_250/method.wav"
+  },
+  {
+    "model": "Qwen3-TTS-AC",
+    "task": "APS",
+    "rank": 2,
+    "id": "en_973",
+    "lang": "en",
+    "instruction": "gender: Female.\n\npitch: High female pitch, sounding somewhat strained.\n\nspeed: Rapid speaking pace with a sense of urgency.\n\nvolume: Loud and forceful, particularly on emphasized words like 'enough' and 'just fine'.\n\nage: Adult.\n\nclarity: Generally clear articulation despite the rapid pace.\n\nfluency: Fluent delivery without hesitation.\n\naccent: Pronounced Spanish accent.\n\ntexture: Sharp and somewhat bright vocal texture, with a touch of strain.\n\nemotion: Frustrated and defensive, conveying annoyance.\n\ntone: Assertive and agitated tone, expressing exasperation.\n\npersonality: Assertive and somewhat impatient, confident in being understood.",
+    "baseline": "audio/Qwen3-TTS-AC/APS/rank_02_en_973/baseline.wav",
+    "method": "audio/Qwen3-TTS-AC/APS/rank_02_en_973/method.wav"
+  },
+  {
+    "model": "Qwen3-TTS-AC",
+    "task": "APS",
+    "rank": 3,
+    "id": "en_119",
+    "lang": "en",
+    "instruction": "gender: Male.\n\npitch: Medium-high male pitch, becoming higher and more exclamatory.\n\nspeed: Brisk and rapid speaking rate.\n\nvolume: Consistently loud and energetic.\n\nage: Middle-aged adult.\n\nclarity: Highly articulate and clear pronunciation.\n\nfluency: Very fluent with no discernible hesitations.\n\naccent: Standard British English.\n\ntexture: Bright and somewhat forceful vocal quality.\n\nemotion: Enthusiastic and energetic.\n\ntone: Exclamatory and declamatory.\n\npersonality: Extroverted and confident.",
+    "baseline": "audio/Qwen3-TTS-AC/APS/rank_03_en_119/baseline.wav",
+    "method": "audio/Qwen3-TTS-AC/APS/rank_03_en_119/method.wav"
+  },
+  {
+    "model": "Qwen3-TTS-AC",
+    "task": "APS",
+    "rank": 4,
+    "id": "en_340",
+    "lang": "en",
+    "instruction": "gender: Male.\n\npitch: High male pitch, sharp and rising with emphasis.\n\nspeed: Very rapid and urgent pace.\n\nvolume: Loud and forceful, almost shouting.\n\nage: Middle-aged adult.\n\nclarity: Highly articulate despite the speed.\n\nfluency: Very fluent with no hesitations.\n\naccent: Standard American English.\n\ntexture: Bright, slightly strained, somewhat nasal.\n\nemotion: Agitated, defiant, dismissive.\n\ntone: Challenging and condescending.\n\npersonality: Assertive, impatient, overconfident.",
+    "baseline": "audio/Qwen3-TTS-AC/APS/rank_04_en_340/baseline.wav",
+    "method": "audio/Qwen3-TTS-AC/APS/rank_04_en_340/method.wav"
+  },
+  {
+    "model": "Qwen3-TTS-AC",
+    "task": "APS",
+    "rank": 5,
+    "id": "en_507",
+    "lang": "en",
+    "instruction": "gender: Male.\n\npitch: Variable male pitch, initially higher and playful during the opening phrase and laughter, then deepening to a lower, resonant level for the main declarative statement..\n\nspeed: Starts with a quick, energetic burst for the opening phrase and laughter, then transitions to a deliberate, articulated pace for the subsequent statement, concluding with an elongated exclamation..\n\nvolume: Begins with an audible, energetic projection during the opening, then maintains a clear, well-projected conversational volume for the main statement..\n\nage: Middle-aged adult.\n\nclarity: High clarity with distinct pronunciation throughout, shifting from playful to precisely articulated speech..\n\nfluency: Consistently fluent with a natural, smooth flow across different expressive segments..\n\naccent: Distinct European accent, suggestive of French, maintained consistently..\n\ntexture: Initially bright and light, evolving to a richer, somewhat resonant vocal quality during the main statement..\n\nemotion: Dynamic emotional expression: from playful amusement during the opening phrase 'For you!' and laughter, to enthusiastic anticipation when stating 'It will be fantastic...', and concluding with impressed surprise in the final 'Wow'..\n\ntone: Shifts from a lighthearted, teasing tone in the opening, to an assertive and enthusiastic declaration, finishing with a tone of genuine admiration..\n\npersonality: Expressive and extroverted, demonstrating confidence and a capacity for varied emotional display..",
+    "baseline": "audio/Qwen3-TTS-AC/APS/rank_05_en_507/baseline.wav",
+    "method": "audio/Qwen3-TTS-AC/APS/rank_05_en_507/method.wav"
+  },
+  {
+    "model": "Qwen3-TTS-AC",
+    "task": "APS",
+    "rank": 6,
+    "id": "zh_869",
+    "lang": "zh",
+    "instruction": "性别: 男性嗓音.\n\n音高: 男性中低音区，音调稳定.\n\n语速: 语速稍快，一气呵成.\n\n音量: 正常谈话音量，偶有加强.\n\n年龄: 中年男性.\n\n清晰度: 吐字清晰，发音标准.\n\n流畅度: 表达流畅，无明显卡顿.\n\n口音: 标准普通话.\n\n音色质感: 音质略显浑厚，略带颗粒感.\n\n情绪: 略带不满与替人惋惜.\n\n语调: 带有抱怨意味的反问语调.\n\n性格: 坦率直接，略显急切.",
+    "baseline": "audio/Qwen3-TTS-AC/APS/rank_06_zh_869/baseline.wav",
+    "method": "audio/Qwen3-TTS-AC/APS/rank_06_zh_869/method.wav"
+  },
+  {
+    "model": "Qwen3-TTS-AC",
+    "task": "APS",
+    "rank": 7,
+    "id": "zh_517",
+    "lang": "zh",
+    "instruction": "性别: 女性.\n\n音高: 女性较高音区，句末疑问语调上扬.\n\n语速: 语速偏快，略显急促.\n\n音量: 音量较大，情绪上扬时更响亮.\n\n年龄: 青年女性.\n\n清晰度: 吐字清晰，发音标准.\n\n流畅度: 表达流畅，无卡顿.\n\n口音: 标准普通话.\n\n音色质感: 音色明亮，略带一丝尖锐.\n\n情绪: 初始关切，后转为略带嗔怪的质问.\n\n语调: 疑问语气强烈，语调高扬且急促.\n\n性格: 直率急躁，关心溢于言表.",
+    "baseline": "audio/Qwen3-TTS-AC/APS/rank_07_zh_517/baseline.wav",
+    "method": "audio/Qwen3-TTS-AC/APS/rank_07_zh_517/method.wav"
+  },
+  {
+    "model": "Qwen3-TTS-AC",
+    "task": "APS",
+    "rank": 8,
+    "id": "zh_13",
+    "lang": "zh",
+    "instruction": "性别: 男性嗓音.\n\n音高: 男性较高音高.\n\n语速: 语速平稳舒展.\n\n音量: 音量充沛洪亮.\n\n年龄: 中年时期.\n\n清晰度: 吐字清晰圆润.\n\n流畅度: 表达流畅连贯.\n\n口音: 早期标准普通话.\n\n音色质感: 音色明亮爽朗.\n\n情绪: 情绪积极昂扬.\n\n语调: 语调生动活泼，起伏明显.\n\n性格: 性格开朗乐观.",
+    "baseline": "audio/Qwen3-TTS-AC/APS/rank_08_zh_13/baseline.wav",
+    "method": "audio/Qwen3-TTS-AC/APS/rank_08_zh_13/method.wav"
+  },
+  {
+    "model": "Qwen3-TTS-AC",
+    "task": "APS",
+    "rank": 9,
+    "id": "zh_338",
+    "lang": "zh",
+    "instruction": "性别: 女性.\n\n音高: 女性偏高音域.\n\n语速: 语速明快.\n\n音量: 音量清晰有力.\n\n年龄: 青年.\n\n清晰度: 吐字清晰准确.\n\n流畅度: 表达十分流畅.\n\n口音: 标准普通话.\n\n音色质感: 音色清亮.\n\n情绪: 略显焦急与不满.\n\n语调: 先反问后陈述，语气坚决.\n\n性格: 果敢直接.",
+    "baseline": "audio/Qwen3-TTS-AC/APS/rank_09_zh_338/baseline.wav",
+    "method": "audio/Qwen3-TTS-AC/APS/rank_09_zh_338/method.wav"
+  },
+  {
+    "model": "Qwen3-TTS-AC",
+    "task": "APS",
+    "rank": 10,
+    "id": "zh_872",
+    "lang": "zh",
+    "instruction": "性别: 女性.\n\n音高: 女性高音，语末音高急剧上扬.\n\n语速: 由慢渐快，后段语速急促.\n\n音量: 初始音量正常，随后显著增强.\n\n年龄: 青年女性.\n\n清晰度: 吐字清晰标准.\n\n流畅度: 表达流畅，一气呵成.\n\n口音: 标准普通话.\n\n音色质感: 音色清亮，激动时略显尖锐.\n\n情绪: 从难以置信的质问转为强烈愤怒.\n\n语调: 初始反诘语气，后转为高亢的斥责语调.\n\n性格: 直率坦诚，情绪爆发力强.",
+    "baseline": "audio/Qwen3-TTS-AC/APS/rank_10_zh_872/baseline.wav",
+    "method": "audio/Qwen3-TTS-AC/APS/rank_10_zh_872/method.wav"
+  },
+  {
+    "model": "Qwen3-TTS-AC",
+    "task": "DSD",
+    "rank": 1,
+    "id": "en_221",
+    "lang": "en",
+    "instruction": "Convey the message with an energetic brisk pace, highlighting the jubilant and extroverted nature of your delivery, while ensuring each word is articulated with utmost clarity and a bright vocal texture.",
+    "baseline": "audio/Qwen3-TTS-AC/DSD/rank_01_en_221/baseline.wav",
+    "method": "audio/Qwen3-TTS-AC/DSD/rank_01_en_221/method.wav"
+  },
+  {
+    "model": "Qwen3-TTS-AC",
+    "task": "DSD",
+    "rank": 2,
+    "id": "en_23",
+    "lang": "en",
+    "instruction": "Begin with a bright and assertive tone, showcasing clear pronunciation, and incorporate a quick speech pace. Gradually introduce a higher pitch with upward inflections as you express frustration, then transition to a thoughtful pace to capture moments of slow emphasis.",
+    "baseline": "audio/Qwen3-TTS-AC/DSD/rank_02_en_23/baseline.wav",
+    "method": "audio/Qwen3-TTS-AC/DSD/rank_02_en_23/method.wav"
+  },
+  {
+    "model": "Qwen3-TTS-AC",
+    "task": "DSD",
+    "rank": 3,
+    "id": "en_773",
+    "lang": "en",
+    "instruction": "Adopt a high pitch that embodies the agitated nature of the voice, yet maintain articulate clarity despite the velocity. This should emanate a distinctly assertive female persona.",
+    "baseline": "audio/Qwen3-TTS-AC/DSD/rank_03_en_773/baseline.wav",
+    "method": "audio/Qwen3-TTS-AC/DSD/rank_03_en_773/method.wav"
+  },
+  {
+    "model": "Qwen3-TTS-AC",
+    "task": "DSD",
+    "rank": 4,
+    "id": "en_818",
+    "lang": "en",
+    "instruction": "Open with playful confidence, asserting 'I'm a teen mom' with clear and articulate pronunciation. Gradually shift to mock-seriousness and affectionate warmth when discussing 'it's a struggle, but she's worth it', crescendoing into dramatic enthusiasm during 'dance war'.",
+    "baseline": "audio/Qwen3-TTS-AC/DSD/rank_04_en_818/baseline.wav",
+    "method": "audio/Qwen3-TTS-AC/DSD/rank_04_en_818/method.wav"
+  },
+  {
+    "model": "Qwen3-TTS-AC",
+    "task": "DSD",
+    "rank": 5,
+    "id": "en_670",
+    "lang": "en",
+    "instruction": "At the outset, impart assertiveness through a high-pitched female voice, ensuring that your initial volume is loud, indicating intense frustration. As the monologue escalates towards defiance, sharply elevate both pitch and volume, embracing a tense vocal texture to showcase emotion.",
+    "baseline": "audio/Qwen3-TTS-AC/DSD/rank_05_en_670/baseline.wav",
+    "method": "audio/Qwen3-TTS-AC/DSD/rank_05_en_670/method.wav"
+  },
+  {
+    "model": "Qwen3-TTS-AC",
+    "task": "DSD",
+    "rank": 6,
+    "id": "zh_869",
+    "lang": "zh",
+    "instruction": "以男性的嗓音为基调,语速稍快一气呵成,音量正常但在表达抱怨时偶有增强,使用略带反问意味的语调,带有替友人鸣不平的不满情感,确保整个语音过程流畅无卡顿。",
+    "baseline": "audio/Qwen3-TTS-AC/DSD/rank_06_zh_869/baseline.wav",
+    "method": "audio/Qwen3-TTS-AC/DSD/rank_06_zh_869/method.wav"
+  },
+  {
+    "model": "Qwen3-TTS-AC",
+    "task": "DSD",
+    "rank": 7,
+    "id": "zh_962",
+    "lang": "zh",
+    "instruction": "以女性青年的高亢声线进行语音表述,初期语调平缓,尾声带强烈的质疑语气且急剧上扬,声音清亮而略带锐利感,并在结尾处提高音量呈现明显的不满。",
+    "baseline": "audio/Qwen3-TTS-AC/DSD/rank_07_zh_962/baseline.wav",
+    "method": "audio/Qwen3-TTS-AC/DSD/rank_07_zh_962/method.wav"
+  },
+  {
+    "model": "Qwen3-TTS-AC",
+    "task": "DSD",
+    "rank": 8,
+    "id": "zh_13",
+    "lang": "zh",
+    "instruction": "语音风格应体现出开朗乐观的男性嗓音,音色明亮,情绪激动时语调变化明显,流畅表达早期标准普通话。",
+    "baseline": "audio/Qwen3-TTS-AC/DSD/rank_08_zh_13/baseline.wav",
+    "method": "audio/Qwen3-TTS-AC/DSD/rank_08_zh_13/method.wav"
+  },
+  {
+    "model": "Qwen3-TTS-AC",
+    "task": "DSD",
+    "rank": 9,
+    "id": "zh_646",
+    "lang": "zh",
+    "instruction": "以中年男性的声线特点为基础,语速在开端保持适中,然后略快,再逐渐趋于平稳。发音要求清晰,语调抑扬顿挫,音色略带沙哑与坚实有力,展现出正直果敢的个性。",
+    "baseline": "audio/Qwen3-TTS-AC/DSD/rank_09_zh_646/baseline.wav",
+    "method": "audio/Qwen3-TTS-AC/DSD/rank_09_zh_646/method.wav"
+  },
+  {
+    "model": "Qwen3-TTS-AC",
+    "task": "DSD",
+    "rank": 10,
+    "id": "zh_749",
+    "lang": "zh",
+    "instruction": "以中年女性的中高音音色,表达日常琐事,要求语速偏快但流畅,一气呵成地进行描述,音量维持正常交谈水平,注意抑扬顿挫的表现力。",
+    "baseline": "audio/Qwen3-TTS-AC/DSD/rank_10_zh_749/baseline.wav",
+    "method": "audio/Qwen3-TTS-AC/DSD/rank_10_zh_749/method.wav"
+  },
+  {
+    "model": "Qwen3-TTS-AC",
+    "task": "RP",
+    "rank": 1,
+    "id": "en_119",
+    "lang": "en",
+    "instruction": "Channel the dynamic energy of a motivational speaker at a conference, driving the audience's excitement with every word.",
+    "baseline": "audio/Qwen3-TTS-AC/RP/rank_01_en_119/baseline.wav",
+    "method": "audio/Qwen3-TTS-AC/RP/rank_01_en_119/method.wav"
+  },
+  {
+    "model": "Qwen3-TTS-AC",
+    "task": "RP",
+    "rank": 2,
+    "id": "en_107",
+    "lang": "en",
+    "instruction": "Channel the intensity of a dedicated coach in a locker room, your voice rising to rally the team with passionate conviction.",
+    "baseline": "audio/Qwen3-TTS-AC/RP/rank_02_en_107/baseline.wav",
+    "method": "audio/Qwen3-TTS-AC/RP/rank_02_en_107/method.wav"
+  },
+  {
+    "model": "Qwen3-TTS-AC",
+    "task": "RP",
+    "rank": 3,
+    "id": "en_777",
+    "lang": "en",
+    "instruction": "Express the urgency of a dynamic storyteller on stage, your voice driving forward with spirited intensity and a rhythmic pace.",
+    "baseline": "audio/Qwen3-TTS-AC/RP/rank_03_en_777/baseline.wav",
+    "method": "audio/Qwen3-TTS-AC/RP/rank_03_en_777/method.wav"
+  },
+  {
+    "model": "Qwen3-TTS-AC",
+    "task": "RP",
+    "rank": 4,
+    "id": "en_62",
+    "lang": "en",
+    "instruction": "An epic storyteller weaves a dramatic tale with growing intensity.",
+    "baseline": "audio/Qwen3-TTS-AC/RP/rank_04_en_62/baseline.wav",
+    "method": "audio/Qwen3-TTS-AC/RP/rank_04_en_62/method.wav"
+  },
+  {
+    "model": "Qwen3-TTS-AC",
+    "task": "RP",
+    "rank": 5,
+    "id": "en_596",
+    "lang": "en",
+    "instruction": "The sports commentator fires up the crowd with an electrifying play-by-play breakdown.",
+    "baseline": "audio/Qwen3-TTS-AC/RP/rank_05_en_596/baseline.wav",
+    "method": "audio/Qwen3-TTS-AC/RP/rank_05_en_596/method.wav"
+  },
+  {
+    "model": "Qwen3-TTS-AC",
+    "task": "RP",
+    "rank": 6,
+    "id": "zh_869",
+    "lang": "zh",
+    "instruction": "为委屈的朋友据理力争的大哥。",
+    "baseline": "audio/Qwen3-TTS-AC/RP/rank_06_zh_869/baseline.wav",
+    "method": "audio/Qwen3-TTS-AC/RP/rank_06_zh_869/method.wav"
+  },
+  {
+    "model": "Qwen3-TTS-AC",
+    "task": "RP",
+    "rank": 7,
+    "id": "zh_892",
+    "lang": "zh",
+    "instruction": "变换语速,从平稳到快速,表达紧迫感,强调家庭开支重大。",
+    "baseline": "audio/Qwen3-TTS-AC/RP/rank_07_zh_892/baseline.wav",
+    "method": "audio/Qwen3-TTS-AC/RP/rank_07_zh_892/method.wav"
+  },
+  {
+    "model": "Qwen3-TTS-AC",
+    "task": "RP",
+    "rank": 8,
+    "id": "zh_727",
+    "lang": "zh",
+    "instruction": "注意邻居的宠物吵闹,把你的不满和迫切地解决问题的愿望表达出来。",
+    "baseline": "audio/Qwen3-TTS-AC/RP/rank_08_zh_727/baseline.wav",
+    "method": "audio/Qwen3-TTS-AC/RP/rank_08_zh_727/method.wav"
+  },
+  {
+    "model": "Qwen3-TTS-AC",
+    "task": "RP",
+    "rank": 9,
+    "id": "zh_837",
+    "lang": "zh",
+    "instruction": "用耐心又热情的声音解释复杂的概念,让孩子听懂还感到有趣。",
+    "baseline": "audio/Qwen3-TTS-AC/RP/rank_09_zh_837/baseline.wav",
+    "method": "audio/Qwen3-TTS-AC/RP/rank_09_zh_837/method.wav"
+  },
+  {
+    "model": "Qwen3-TTS-AC",
+    "task": "RP",
+    "rank": 10,
+    "id": "zh_764",
+    "lang": "zh",
+    "instruction": "化身公司年会上的主讲人,为优秀员工颁奖致辞。",
+    "baseline": "audio/Qwen3-TTS-AC/RP/rank_10_zh_764/baseline.wav",
+    "method": "audio/Qwen3-TTS-AC/RP/rank_10_zh_764/method.wav"
+  }
+]

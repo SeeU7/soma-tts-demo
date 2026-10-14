@@ -3,43 +3,48 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Audio demonstration page for SOMA, an instruction-guided text-to-speech research project.">
+  <meta name="description" content="Listen to paired speech synthesis examples for SOMA, an instruction-guided text-to-speech research project.">
   <title>SOMA | Audio Demos</title>
-  <style>
-    :root {
-      color-scheme: light;
-      font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: #f7f8fb;
-      color: #17233a;
-    }
-    * { box-sizing: border-box; }
-    body { margin: 0; }
-    .wrap { width: min(100% - 2.5rem, 960px); margin: auto; }
-    header { padding: 1.25rem 0; border-bottom: 1px solid #e4e8f0; background: #fff; }
-    .brand { font-weight: 800; letter-spacing: .08em; color: #254f9b; }
-    main { padding: clamp(3rem, 8vw, 6rem) 0 5rem; }
-    .eyebrow { font-size: .8rem; font-weight: 750; letter-spacing: .14em; text-transform: uppercase; color: #4168b2; }
-    h1 { max-width: 860px; margin: .8rem 0 1.25rem; font-size: clamp(2.35rem, 5vw, 4.25rem); line-height: 1.12; letter-spacing: -.045em; }
-    .lead { max-width: 720px; color: #526078; font-size: clamp(1.05rem, 1.8vw, 1.25rem); line-height: 1.7; }
-    .panel { margin-top: 3.5rem; padding: clamp(1.5rem, 4vw, 2.5rem); background: #fff; border: 1px solid #e2e7f0; border-radius: 18px; box-shadow: 0 12px 40px #253f7010; }
-    h2 { margin: 0 0 .75rem; font-size: 1.55rem; }
-    .panel p { margin: 0; color: #526078; line-height: 1.7; }
-    .status { display: inline-block; margin: 1.5rem 0 0; padding: .55rem .8rem; border-radius: 999px; background: #eaf1ff; color: #254f9b; font-size: .85rem; font-weight: 700; }
-    footer { border-top: 1px solid #e4e8f0; padding: 1.5rem 0 2rem; color: #6b768b; font-size: .88rem; }
-  </style>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
 </head>
 <body>
-  <header><div class="wrap brand">SOMA</div></header>
-  <main class="wrap">
-    <div class="eyebrow">Research audio demo</div>
-    <h1>Support-Constrained One-Sided Mass-Adaptive Guidance for Instruction-Guided Text-to-Speech</h1>
-    <p class="lead">This page accompanies the SOMA paper. Audio examples and listening comparisons will be added here.</p>
-    <section class="panel" aria-labelledby="samples-title">
-      <h2 id="samples-title">Audio samples</h2>
-      <p>The demo is being prepared. Please check back for speech samples and side-by-side comparisons.</p>
-      <span class="status">Coming soon</span>
+  <a class="skip-link" href="#samples">Skip to audio samples</a>
+  <header class="site-header"><div class="wrap header-inner">
+    <a class="brand" href="#top" aria-label="SOMA home"><span class="brand-mark">S</span><span>SOMA</span></a>
+    <nav aria-label="Page navigation"><a href="#about">About</a><a href="#samples">Audio samples</a><a href="https://github.com/SeeU7/soma-tts-demo">GitHub ↗</a></nav>
+  </div></header>
+  <main id="top">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-line"></span> RESEARCH AUDIO DEMO</div>
+        <h1 id="hero-title">Instruction-guided speech, <em>heard side by side.</em></h1>
+        <p class="paper-title">Support-Constrained One-Sided Mass-Adaptive Guidance for Instruction-Guided Text-to-Speech</p>
+        <p class="hero-description">Explore paired synthesis samples across three models, three instruction tasks, and English and Mandarin. Each example places the baseline and <strong>+SOMA</strong> output next to its instruction so you can make your own listening comparison.</p>
+        <a class="primary-link" href="#samples">Explore the samples <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="hero-art-core"><span class="signal-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span></div>
+        <div class="art-chip chip-top">VOICE · INSTRUCTION</div><div class="art-chip chip-bottom">BASELINE → +SOMA</div>
+      </div>
+    </section>
+    <section class="overview" id="about" aria-label="Demo overview"><div class="wrap overview-inner">
+      <div class="overview-intro"><span class="section-kicker">THE COLLECTION</span><h2>A listening view of the paper</h2><p>Samples are grouped by model and task. The task labels APS, DSD, and RP follow the supplied sample set.</p></div>
+      <div class="stat-grid"><div class="stat"><strong>90</strong><span>paired examples</span></div><div class="stat"><strong>3</strong><span>speech models</span></div><div class="stat"><strong>2</strong><span>languages</span></div></div>
+    </div></section>
+    <section class="samples-section wrap" id="samples" aria-labelledby="samples-title">
+      <div class="section-head"><div><span class="section-kicker">LISTEN & COMPARE</span><h2 id="samples-title">Audio samples</h2><p>Choose a model, task, and language. Play either version to compare how the instruction is reflected in the speech.</p></div><span class="sample-count" id="result-count" aria-live="polite">Loading samples…</span></div>
+      <div class="filter-panel" aria-label="Sample filters">
+        <div class="filter-group"><span class="filter-label">Model</span><div class="segmented" id="model-filters" role="group" aria-label="Filter by model"></div></div>
+        <div class="filter-group"><span class="filter-label">Task</span><div class="segmented" id="task-filters" role="group" aria-label="Filter by task"></div></div>
+        <div class="filter-group language-group"><label class="filter-label" for="language-filter">Language</label><select id="language-filter"><option value="all">All languages</option><option value="en">English</option><option value="zh">Mandarin</option></select></div>
+      </div>
+      <p class="filter-note">The examples are selected samples from the provided collection. Listen to the audio directly; no aggregate quality claim is implied by this selection.</p>
+      <div id="sample-list" class="sample-list" aria-live="polite"></div>
+      <div class="load-more-wrap"><button id="load-more" class="load-more" type="button" hidden>Show more examples <span aria-hidden="true">↓</span></button></div>
     </section>
   </main>
-  <footer><div class="wrap">SOMA · Instruction-guided text-to-speech</div></footer>
+  <footer class="site-footer"><div class="wrap footer-inner"><span class="brand footer-brand"><span class="brand-mark">S</span><span>SOMA</span></span><span>Instruction-guided text-to-speech · Audio demonstrations</span><a href="https://github.com/SeeU7/soma-tts-demo">View repository ↗</a></div></footer>
 </body>
 </html>
