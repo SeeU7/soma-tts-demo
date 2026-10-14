@@ -1,5 +1,6 @@
 const modelOptions = ['All models', 'CosyVoice2', 'CosyVoice3', 'Qwen3-TTS-AC'];
-const taskOptions = ['All tasks', 'APS', 'DSD', 'RP'];
+const taskOptions = ['All tasks', 'DSD', 'RP', 'APS'];
+const taskPriority = { DSD: 0, RP: 1, APS: 2 };
 const state = { model: 'All models', task: 'All tasks', lang: 'all', visible: 12 };
 let samples = [];
 const list = document.querySelector('#sample-list');
@@ -76,6 +77,11 @@ function render() {
     (state.model === 'All models' || sample.model === state.model) &&
     (state.task === 'All tasks' || sample.task === state.task) &&
     (state.lang === 'all' || sample.lang === state.lang)
+  ).sort((a, b) =>
+    Number(a.task === 'APS') - Number(b.task === 'APS') ||
+    modelOptions.indexOf(a.model) - modelOptions.indexOf(b.model) ||
+    a.rank - b.rank ||
+    taskPriority[a.task] - taskPriority[b.task]
   );
   count.textContent = `${filtered.length} ${filtered.length === 1 ? 'example' : 'examples'}`;
   list.replaceChildren(...filtered.slice(0, state.visible).map(sampleCard));
